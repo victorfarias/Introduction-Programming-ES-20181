@@ -17,6 +17,7 @@ int contar_registros(string nome_arquivo){
         cout << "Arquivo com problema!!";
         return 1;
     }
+    
     Aluno aluno;
     int contador = 0;
     while(infile >> aluno.nome >> aluno.matricula){

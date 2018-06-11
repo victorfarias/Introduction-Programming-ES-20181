@@ -58,9 +58,7 @@ void imprimir_vetor(struct Aluno *alunos, int n){
     }
 }
 
-int main(){    
-
-    struct Aluno alunos[5]; 
+int main(){     
 
     int qtd_alunos = contar_registros("aluno.txt");
     
